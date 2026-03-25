@@ -1,0 +1,59 @@
+{
+  "gerado_em": "2026-03-25T19:59:48",
+  "pasta_logs": "/Users/felipefeu/Documents/analisador_de_log/analisador_de_logs/log1",
+  "total_arquivos": 2,
+  "buffer_size": 4,
+  "repeticoes": 1,
+  "ambiente": {
+    "processador": "arm",
+    "nucleos_fisicos": "Nao identificado",
+    "nucleos_logicos": "8",
+    "memoria_ram_gb": null,
+    "sistema_operacional": "macOS 26.3.1",
+    "linguagem": "Python",
+    "biblioteca_paralelizacao": "multiprocessing (stdlib)",
+    "versao_python": "3.9.6"
+  },
+  "resultados": [
+    {
+      "processos": 1,
+      "tempos": [
+        0.007597167000000016
+      ],
+      "media_tempo": 0.007597167000000016,
+      "desvio_padrao": 0.0,
+      "resultado": {
+        "linhas": 600,
+        "palavras": 12000,
+        "caracteres": 82085,
+        "contagem": {
+          "erro": 1993,
+          "warning": 1998,
+          "info": 1983
+        }
+      },
+      "speedup": 1.0,
+      "eficiencia": 1.0
+    },
+    {
+      "processos": 2,
+      "tempos": [
+        0.010226250000000048
+      ],
+      "media_tempo": 0.010226250000000048,
+      "desvio_padrao": 0.0,
+      "resultado": {
+        "linhas": 600,
+        "palavras": 12000,
+        "caracteres": 82085,
+        "contagem": {
+          "erro": 1993,
+          "warning": 1998,
+          "info": 1983
+        }
+      },
+      "speedup": 0.7429083975064154,
+      "eficiencia": 0.3714541987532077
+    }
+  ]
+}

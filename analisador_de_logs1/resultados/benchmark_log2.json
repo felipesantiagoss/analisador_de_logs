@@ -1,0 +1,119 @@
+{
+  "gerado_em": "2026-03-25T20:34:54",
+  "pasta_logs": "/Users/felipefeu/Documents/analisador_de_log/analisador_de_logs/log2",
+  "total_arquivos": 1000,
+  "buffer_size": 32,
+  "repeticoes": 1,
+  "ambiente": {
+    "processador": "Apple M2",
+    "nucleos_fisicos": "8 (4 Performance and 4 Efficiency)",
+    "nucleos_logicos": "8",
+    "memoria_ram": "8 GB",
+    "sistema_operacional": "macOS 26.3.1",
+    "linguagem": "Python",
+    "biblioteca_paralelizacao": "multiprocessing (stdlib)",
+    "versao_python": "3.9.6"
+  },
+  "resultados": [
+    {
+      "processos": 1,
+      "tempos": [
+        122.69269725
+      ],
+      "media_tempo": 122.69269725,
+      "desvio_padrao": 0.0,
+      "resultado": {
+        "linhas": 10000000,
+        "palavras": 200000000,
+        "caracteres": 1366663305,
+        "contagem": {
+          "erro": 33332083,
+          "warning": 33330520,
+          "info": 33329065
+        }
+      },
+      "speedup": 1.0,
+      "eficiencia": 1.0
+    },
+    {
+      "processos": 2,
+      "tempos": [
+        64.4171515
+      ],
+      "media_tempo": 64.4171515,
+      "desvio_padrao": 0.0,
+      "resultado": {
+        "linhas": 10000000,
+        "palavras": 200000000,
+        "caracteres": 1366663305,
+        "contagem": {
+          "erro": 33332083,
+          "warning": 33330520,
+          "info": 33329065
+        }
+      },
+      "speedup": 1.9046588430722522,
+      "eficiencia": 0.9523294215361261
+    },
+    {
+      "processos": 4,
+      "tempos": [
+        51.72693283299998
+      ],
+      "media_tempo": 51.72693283299998,
+      "desvio_padrao": 0.0,
+      "resultado": {
+        "linhas": 10000000,
+        "palavras": 200000000,
+        "caracteres": 1366663305,
+        "contagem": {
+          "erro": 33332083,
+          "warning": 33330520,
+          "info": 33329065
+        }
+      },
+      "speedup": 2.371930646769884,
+      "eficiencia": 0.592982661692471
+    },
+    {
+      "processos": 8,
+      "tempos": [
+        48.60161249999999
+      ],
+      "media_tempo": 48.60161249999999,
+      "desvio_padrao": 0.0,
+      "resultado": {
+        "linhas": 10000000,
+        "palavras": 200000000,
+        "caracteres": 1366663305,
+        "contagem": {
+          "erro": 33332083,
+          "warning": 33330520,
+          "info": 33329065
+        }
+      },
+      "speedup": 2.524457336677873,
+      "eficiencia": 0.31555716708473414
+    },
+    {
+      "processos": 12,
+      "tempos": [
+        48.562853209000025
+      ],
+      "media_tempo": 48.562853209000025,
+      "desvio_padrao": 0.0,
+      "resultado": {
+        "linhas": 10000000,
+        "palavras": 200000000,
+        "caracteres": 1366663305,
+        "contagem": {
+          "erro": 33332083,
+          "warning": 33330520,
+          "info": 33329065
+        }
+      },
+      "speedup": 2.5264721725053354,
+      "eficiencia": 0.21053934770877794
+    }
+  ]
+}
